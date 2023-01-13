@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/Theme.AndroidTestTask.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="预报详情" />
+
+    <TextView
+        android:id="@+id/tv_province"
+        style="@style/Theme.AndroidTestTask.DetailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="省份名称 : 辽宁" />
+
+    <TextView
+        android:id="@+id/tv_city"
+        style="@style/Theme.AndroidTestTask.DetailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="城市名称 : 沈阳市" />
+
+    <TextView
+        android:id="@+id/tv_reporttime"
+        style="@style/Theme.AndroidTestTask.DetailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="预报发布时间 : 2023-01-14 09:32:42" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        style="@style/Theme.AndroidTestTask.DetailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="日期 : 2023-01-14" />
+
+    <TextView
+        android:id="@+id/tv_week"
+        style="@style/Theme.AndroidTestTask.DetailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="星期 : 6" />
+
+    <TextView
+        android:id="@+id/tv_dayweather"
+        style="@style/Theme.AndroidTestTask.DetailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="白天天气现象 : 多云" />
+
+    <TextView
+        android:id="@+id/tv_nightweather"
+        style="@style/Theme.AndroidTestTask.DetailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="晚上天气现象 : 晴" />
+
+    <TextView
+        android:id="@+id/tv_daytemp"
+        style="@style/Theme.AndroidTestTask.DetailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="白天温度 : -9" />
+
+    <TextView
+        android:id="@+id/tv_nighttemp"
+        style="@style/Theme.AndroidTestTask.DetailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="晚上温度 : -19" />
+
+    <TextView
+        android:id="@+id/tv_daywind"
+        style="@style/Theme.AndroidTestTask.DetailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="白天风向 : 北" />
+
+    <TextView
+        android:id="@+id/tv_nightwind"
+        style="@style/Theme.AndroidTestTask.DetailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="晚上风向 : 北" />
+
+    <TextView
+        android:id="@+id/tv_daypower"
+        style="@style/Theme.AndroidTestTask.DetailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="白天风力 : 5" />
+
+    <TextView
+        android:id="@+id/tv_nightpower"
+        style="@style/Theme.AndroidTestTask.DetailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="晚上风力 : 5" />
+
+</LinearLayout>
